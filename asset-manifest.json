@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dealer-studio-dashboard/static/css/main.815824ab.css",
+    "main.js": "/dealer-studio-dashboard/static/js/main.c2b3dce7.js",
+    "static/media/header-background.jpg": "/dealer-studio-dashboard/static/media/header-background.40e261d8a20f4fdf87ef.jpg",
+    "index.html": "/dealer-studio-dashboard/index.html",
+    "main.815824ab.css.map": "/dealer-studio-dashboard/static/css/main.815824ab.css.map",
+    "main.c2b3dce7.js.map": "/dealer-studio-dashboard/static/js/main.c2b3dce7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.815824ab.css",
+    "static/js/main.c2b3dce7.js"
+  ]
+}
