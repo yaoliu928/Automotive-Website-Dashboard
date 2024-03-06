@@ -1,11 +1,12 @@
 import React from 'react'
 import './main-page.scss'
-import Banner from './components/banner'
+import { ItemCardList, Banner } from './components'
 
 const MainPage = () => {
   return (
     <main>
       <Banner />
+      <ItemCardList />
     </main>
   )
 }

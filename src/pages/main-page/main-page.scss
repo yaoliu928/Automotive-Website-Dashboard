@@ -1,6 +1,9 @@
 $banner-background-image: url('../../../public/header-background.jpg');
-$button-bg-color: #0072d4;
+$primary-color: #0072d4;
 $button-text-color: white;
+$card-gap: 40px;
+$card-title-color: #111;
+$card-text-color: #666;
 
 .page-banner {
   position: relative;
@@ -47,7 +50,7 @@ $button-text-color: white;
       line-height: 1.4rem;
     }
     .banner-button {
-      background-color: $button-bg-color;
+      background-color: $primary-color;
       color: $button-text-color;
       height: 40px;
       border: none;
@@ -60,5 +63,77 @@ $button-text-color: white;
       display: inline-block;
       margin-top: 30px;
     }
+  }
+}
+
+.card-list-container {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $card-gap;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 0 1 calc(33.33% - $card-gap);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  box-sizing: border-box;
+  border-width: 4px;
+  &.selected {
+    border: solid 4px $primary-color;
+  }
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  .card-body {
+    padding: 15px;
+    background: white;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    .card-title {
+      font-size: 1.5rem;
+      color: $card-title-color;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    .card-text {
+      font-size: 0.9rem;
+      color: $card-text-color;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+    .card-button {
+      padding: 10px 0;
+      border: none;
+      border-radius: 20px;
+      background-color: $primary-color;
+      color: white;
+      cursor: pointer;
+      outline: none;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    flex-basis: calc(50% - $card-gap);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-basis: 100%;
   }
 }
