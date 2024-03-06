@@ -1,0 +1,64 @@
+$banner-background-image: url('../../../public/header-background.jpg');
+$button-bg-color: #0072d4;
+$button-text-color: white;
+
+.page-banner {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  background-image: $banner-background-image;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); // Adjust shadow color and opacity
+    z-index: 1;
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner-content {
+    width: 45%;
+    padding: 10px 0;
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 1.4rem;
+    }
+    .banner-button {
+      background-color: $button-bg-color;
+      color: $button-text-color;
+      height: 40px;
+      border: none;
+      border-radius: 20px;
+      padding: 0px 55px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      display: inline-block;
+      margin-top: 30px;
+    }
+  }
+}

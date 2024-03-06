@@ -1,13 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
+import { MainPage } from './pages/main-page'
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+      <MainPage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
