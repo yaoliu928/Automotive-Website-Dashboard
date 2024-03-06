@@ -28,9 +28,7 @@ const ItemCard: FC<ItemCardProps> = ({
       />
       <div className="card-body">
         <h3 className="card-title">Heading {id}</h3>
-        <p className="card-text" style={{ whiteSpace: 'pre-wrap' }}>
-          {children}
-        </p>
+        {children}
         <button className="card-button" onClick={() => onClick(id)}>
           Button {id}
         </button>

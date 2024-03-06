@@ -6,14 +6,13 @@ const Banner = () => {
       <div className="banner-content">
         <h1>Welcome to G Automotive</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum sequi
-          est sapiente consequuntur alias similique ab veniam veritatis, ut
-          natus placeat possimus quidem itaque assumenda modi cumque, qui atque
-          culpa. Voluptatibus quibusdam quis voluptates sapiente voluptatem
-          blanditiis officia molestiae hic. Numquam molestias, necessitatibus
-          saepe nesciunt ad odit consequuntur in ipsa iusto eum. totam repellat
-          quod velit praesentium nostrum consequuntur tenetur sunt, impedit
-          deserunt error debitis, nobis et harum quis.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute rure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt ir culba cui
+          officia deserunt mollit anim id est laborun
         </p>
         <button className="banner-button">Contact Us</button>
       </div>

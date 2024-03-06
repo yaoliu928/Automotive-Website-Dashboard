@@ -1,4 +1,4 @@
-import React, { ReactNode, useState } from 'react'
+import React, { useState } from 'react'
 import ItemCard from './item-card'
 import { Item } from '../../../models'
 
@@ -31,17 +31,19 @@ const ItemCardList = () => {
 
   return (
     <div className="card-list-container">
-      {items.map((item) => (
-        <ItemCard
-          isSelected={item.id === selectedIndex}
-          key={item.id}
-          image={item.image}
-          id={item.id}
-          onClick={handleSelectCard}
-        >
-          {item.description}
-        </ItemCard>
-      ))}
+      {items.map(({ id, image, description }) => {
+        return (
+          <ItemCard
+            isSelected={id === selectedIndex}
+            key={id}
+            image={image}
+            id={id}
+            onClick={handleSelectCard}
+          >
+            {<p className="card-text">{description}</p>}
+          </ItemCard>
+        )
+      })}
     </div>
   )
 }
