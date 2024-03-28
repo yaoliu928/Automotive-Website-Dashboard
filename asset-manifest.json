@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dealer-studio-dashboard/static/css/main.815824ab.css",
-    "main.js": "/dealer-studio-dashboard/static/js/main.c2b3dce7.js",
-    "static/media/header-background.jpg": "/dealer-studio-dashboard/static/media/header-background.40e261d8a20f4fdf87ef.jpg",
-    "index.html": "/dealer-studio-dashboard/index.html",
-    "main.815824ab.css.map": "/dealer-studio-dashboard/static/css/main.815824ab.css.map",
-    "main.c2b3dce7.js.map": "/dealer-studio-dashboard/static/js/main.c2b3dce7.js.map"
+    "main.css": "/Automotive-Website-Dashboard/static/css/main.24d86f0d.css",
+    "main.js": "/Automotive-Website-Dashboard/static/js/main.5dcf5820.js",
+    "static/media/header-background.jpg": "/Automotive-Website-Dashboard/static/media/header-background.40e261d8a20f4fdf87ef.jpg",
+    "index.html": "/Automotive-Website-Dashboard/index.html",
+    "main.24d86f0d.css.map": "/Automotive-Website-Dashboard/static/css/main.24d86f0d.css.map",
+    "main.5dcf5820.js.map": "/Automotive-Website-Dashboard/static/js/main.5dcf5820.js.map"
   },
   "entrypoints": [
-    "static/css/main.815824ab.css",
-    "static/js/main.c2b3dce7.js"
+    "static/css/main.24d86f0d.css",
+    "static/js/main.5dcf5820.js"
   ]
 }
