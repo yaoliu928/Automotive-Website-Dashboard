@@ -2,7 +2,7 @@
   "name": "dealer-studio-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yaoliu928.github.io/dealer-studio-dashboard",
+  "homepage": "https://yaoliu928.github.io/Automotive-Website-Dashboard/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
