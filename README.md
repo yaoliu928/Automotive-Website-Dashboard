@@ -1,6 +1,6 @@
 ## Automotive-Website-Dashboard
 
-### [Live Demo](https://yaoliu928.github.io/dealer-studio-dashboard/)
+### [Live Demo](https://yaoliu928.github.io/Automotive-Website-Dashboard/)
 
 ### Tech Stacks
 
