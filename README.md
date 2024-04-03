@@ -1,4 +1,4 @@
-## Automotive-Website-Dashboard
+## Automotive Website Dashboard
 
 ### [Live Demo](https://yaoliu928.github.io/Automotive-Website-Dashboard/)
 
